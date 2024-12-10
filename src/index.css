@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(24, 34, 40);
+    color:white;
+    /* margin: 20px; */
+    /* padding: 20px; */
+}
+
+
+.container{
+    width: 50vw;
+    height: 30vw;
+    border: 1px solid white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(58, 66, 108);
+
+}
+
+.container input{
+    width: 50%;
+}
+
+.container button {
+    width: 100px;
+    height: 40px;
+    background-color: goldenrod;
+}
+
